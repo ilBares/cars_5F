@@ -1,16 +1,14 @@
 
 class Car {
-  String _licensePlate;
   String _model;
+  String _licensePlate;
   int _year;
 
-  Car(this._licensePlate, this._model, this._year);
+  Car(this._model, this._licensePlate, this._year);
 
   int get year => _year;
 
-  set year(int value) {
-    _year = value;
-  }
+  set year(int value) => _year = value;
 
   String get model => _model;
 
